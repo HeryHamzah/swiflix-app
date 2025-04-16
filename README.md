@@ -1,5 +1,9 @@
 
 # Swiflix
+![GitHub epo size](https://img.shields.io/github/repo-size/HeryHamzah/swiflix-app)
+![GitHub contributors](https://img.shields.io/github/contributors/HeryHamzah/swiflix-app)
+![GitHub stars](https://img.shields.io/github/stars/HeryHamzah/swiflix-app?style=social)
+![GitHub forks](https://img.shields.io/github/forks/HeryHamzah/swiflix-app?style=social)
 
 Swiflix is a cinema ticket booking simulation app built with SwiftUI, following the principles of Clean Architecture and the MVVM pattern. It uses Firebase for authentication and data storage, and integrates with The Movie Database (TMDb) API to display the latest movie information.
 
