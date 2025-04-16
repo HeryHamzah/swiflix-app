@@ -51,4 +51,4 @@ This project is built for educational and simulation purposes. All movie-related
 ## Contact
 Feel free to reach out for any feedback or collaboration:
 - 📧 Email: herymobiledev@gmail.com
-- 💼 LinkedIn: [Hery Hamzah](linkedin.com/in/heryyhamzah)
+- 💼 LinkedIn: [Hery Hamzah](https://www.linkedin.com/in/heryyhamzah)
