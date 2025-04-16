@@ -1,0 +1,1553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0141A92D32A16000379465 /* GetMovieDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0141A82D32A16000379465 /* GetMovieDetailUseCase.swift */; };
+		5A0141AB2D32A30200379465 /* RemoteMovieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0141AA2D32A30200379465 /* RemoteMovieDetailModel.swift */; };
+		5A0141AD2D32AB4C00379465 /* RemoteGenreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0141AC2D32AB4C00379465 /* RemoteGenreModel.swift */; };
+		5A0141AF2D32E76900379465 /* MovieDetailShimmerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0141AE2D32E76900379465 /* MovieDetailShimmerLoadingView.swift */; };
+		5A03B1A82A59D1F600E51F03 /* swiflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A03B1A72A59D1F600E51F03 /* swiflixApp.swift */; };
+		5A03B1AC2A59D1F800E51F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A03B1AB2A59D1F800E51F03 /* Assets.xcassets */; };
+		5A03B1AF2A59D1F800E51F03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A03B1AE2A59D1F800E51F03 /* Preview Assets.xcassets */; };
+		5A0759F12D68A9D400107F95 /* TransactionShimmerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0759F02D68A9D400107F95 /* TransactionShimmerLoadingView.swift */; };
+		5A13203C2D57490400586F52 /* TicketDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A13203B2D57490400586F52 /* TicketDetailScreen.swift */; };
+		5A1D87AE2B52A5B0007F36E7 /* MovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D87AD2B52A5B0007F36E7 /* MovieScreen.swift */; };
+		5A1D87B02B52A5DA007F36E7 /* TicketScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D87AF2B52A5DA007F36E7 /* TicketScreen.swift */; };
+		5A1D87B22B52A5EE007F36E7 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D87B12B52A5EE007F36E7 /* ProfileScreen.swift */; };
+		5A1D87B52B52B69B007F36E7 /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D87B42B52B69B007F36E7 /* MovieEntity.swift */; };
+		5A1D87B72B52B97A007F36E7 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D87B62B52B97A007F36E7 /* MovieViewModel.swift */; };
+		5A1D87BA2B52C650007F36E7 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D87B92B52C650007F36E7 /* RemoteImage.swift */; };
+		5A221BF22B1CAAA3004C2F6B /* SessionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A221BF12B1CAAA3004C2F6B /* SessionKey.swift */; };
+		5A2264162D7D85620045C505 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2264152D7D85620045C505 /* SplashScreen.swift */; };
+		5A27972F2D4FAF3C00B0FD5B /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A27972E2D4FAF3C00B0FD5B /* TicketView.swift */; };
+		5A2797312D4FBB7D00B0FD5B /* NewestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2797302D4FBB7D00B0FD5B /* NewestListView.swift */; };
+		5A2797332D4FBB8900B0FD5B /* ExpiredListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2797322D4FBB8900B0FD5B /* ExpiredListView.swift */; };
+		5A2797352D4FBE0200B0FD5B /* TicketListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2797342D4FBDF000B0FD5B /* TicketListViewModel.swift */; };
+		5A2797372D4FBFD000B0FD5B /* TicketRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2797362D4FBFC900B0FD5B /* TicketRepositoryImpl.swift */; };
+		5A2881F32A5BDD9400001FC6 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2881F22A5BDD9400001FC6 /* OnBoardingScreen.swift */; };
+		5A2881FB2A5C12A000001FC6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2881FA2A5C12A000001FC6 /* Extension.swift */; };
+		5A33F7CF2B1CB6CE00C2D85A /* SessionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F7CE2B1CB6CE00C2D85A /* SessionComponent.swift */; };
+		5A3D4C582D1D9A3F002CCA3A /* RatingStarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D4C572D1D9A3F002CCA3A /* RatingStarWidget.swift */; };
+		5A3D4C5A2D1DAF80002CCA3A /* CastEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D4C592D1DAF80002CCA3A /* CastEntity.swift */; };
+		5A3D4C5C2D1DB0EF002CCA3A /* GetCreditsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D4C5B2D1DB0EF002CCA3A /* GetCreditsUseCase.swift */; };
+		5A3D4C5F2D1DB3F9002CCA3A /* RemoteCastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D4C5E2D1DB3F9002CCA3A /* RemoteCastModel.swift */; };
+		5A3D4C612D1DB6EE002CCA3A /* RemoteCastResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D4C602D1DB6EE002CCA3A /* RemoteCastResult.swift */; };
+		5A422D522D8F179100A9A3DF /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A422D512D8F178E00A9A3DF /* DataUtils.swift */; };
+		5A45488F2C1AC21C0060C5F8 /* AuthenticationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45488E2C1AC21C0060C5F8 /* AuthenticationUtils.swift */; };
+		5A462C002C6CD9BB00F7A456 /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = 5A462BFF2C6CD9BB00F7A456 /* Shimmer */; };
+		5A5556592D4E1363006C19AA /* TopUpTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5556582D4E1362006C19AA /* TopUpTemplateView.swift */; };
+		5A55565B2D4E1B28006C19AA /* TopUpWalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A55565A2D4E1B21006C19AA /* TopUpWalletViewModel.swift */; };
+		5A5556602D4E1BA4006C19AA /* TopUpWalletUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A55565F2D4E1BA4006C19AA /* TopUpWalletUseCase.swift */; };
+		5A5556622D4E1BBC006C19AA /* WalletRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5556612D4E1BBC006C19AA /* WalletRepository.swift */; };
+		5A5556652D4E1F37006C19AA /* WalletRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5556642D4E1F2C006C19AA /* WalletRepositoryImpl.swift */; };
+		5A5556672D4E36DE006C19AA /* MyWalletScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5556662D4E36DE006C19AA /* MyWalletScreen.swift */; };
+		5A5556692D4E36FE006C19AA /* SuccessTopUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5556682D4E36FE006C19AA /* SuccessTopUpScreen.swift */; };
+		5A59BF5F2C21C43300A0ECF2 /* EditProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A59BF5E2C21C43300A0ECF2 /* EditProfileScreen.swift */; };
+		5A5FE2972AB8B459009D0053 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5FE2962AB8B459009D0053 /* RegisterViewModel.swift */; };
+		5A60FA3C2B8B381C000506DF /* GenreEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60FA3B2B8B381C000506DF /* GenreEnum.swift */; };
+		5A60FA462B8C3911000506DF /* UploadImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60FA452B8C3911000506DF /* UploadImageViewModel.swift */; };
+		5A6497492D676D3100377F07 /* IncomePlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6497482D676D3000377F07 /* IncomePlaceholderView.swift */; };
+		5A6E68602A6300ED001058AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E685F2A6300ED001058AB /* Constants.swift */; };
+		5A76121D2D3CEC3000C747C6 /* ChooseSeatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76121C2D3CEC3000C747C6 /* ChooseSeatScreen.swift */; };
+		5A76121F2D3CF3A200C747C6 /* ReservationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76121E2D3CF39600C747C6 /* ReservationEntity.swift */; };
+		5A7612212D3D3FD500C747C6 /* SeatStatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7612202D3D3FC900C747C6 /* SeatStatusEnum.swift */; };
+		5A7BC0A92C3D6A0100EB2FCC /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BC0A82C3D6A0100EB2FCC /* TextFieldView.swift */; };
+		5A86A7B32C1A027700AC17BC /* ProfileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A86A7B22C1A027700AC17BC /* ProfileUtils.swift */; };
+		5A90F8092AB70AEA00590400 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90F8082AB70AEA00590400 /* DependencyInjection.swift */; };
+		5A993EA22A5C28CA0039CB6C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A993EA42A5C28CA0039CB6C /* Localizable.strings */; };
+		5AA130022C932CE70096B7A4 /* GenreEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA130012C932CE70096B7A4 /* GenreEntity.swift */; };
+		5AA130042C9330920096B7A4 /* GetForYouListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA130032C9330920096B7A4 /* GetForYouListUseCase.swift */; };
+		5AA130062C9330B00096B7A4 /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA130052C9330B00096B7A4 /* MovieRepository.swift */; };
+		5AA1300A2C9332EC0096B7A4 /* GetNowPlayingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA130092C9332EC0096B7A4 /* GetNowPlayingUseCase.swift */; };
+		5AA1300C2C93331E0096B7A4 /* GetUpcomingListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1300B2C93331E0096B7A4 /* GetUpcomingListUseCase.swift */; };
+		5AA1300E2C9333370096B7A4 /* MovieComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1300D2C9333370096B7A4 /* MovieComponent.swift */; };
+		5AA130112C9333E80096B7A4 /* MovieRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA130102C9333E80096B7A4 /* MovieRepositoryImpl.swift */; };
+		5AA130142C9334990096B7A4 /* MovieDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA130132C9334990096B7A4 /* MovieDataSource.swift */; };
+		5AA130162C9334BF0096B7A4 /* RemoteMovieDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA130152C9334BF0096B7A4 /* RemoteMovieDataSource.swift */; };
+		5AA381642C8F5719000D7C1D /* ForYouShimmerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA381632C8F5719000D7C1D /* ForYouShimmerLoadingView.swift */; };
+		5AA381662C8F5741000D7C1D /* FavoriteCategoryShimmerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA381652C8F5741000D7C1D /* FavoriteCategoryShimmerLoadingView.swift */; };
+		5AA381682C8F575C000D7C1D /* NowInCinemasShimmerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA381672C8F575C000D7C1D /* NowInCinemasShimmerLoadingView.swift */; };
+		5AA3816A2C8F577A000D7C1D /* ComingSoonShimmerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA381692C8F577A000D7C1D /* ComingSoonShimmerLoadingView.swift */; };
+		5AAA1F5E2D378CDA00D4A3EE /* ReservationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAA1F5D2D378CDA00D4A3EE /* ReservationScreen.swift */; };
+		5AAA1F822D37D31300D4A3EE /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAA1F812D37D31300D4A3EE /* NavigationManager.swift */; };
+		5AAE118F2D40C51B00AA5A16 /* SuccessReservationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE118E2D40C51B00AA5A16 /* SuccessReservationScreen.swift */; };
+		5AAE11932D40DF3500AA5A16 /* ReservationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE11922D40DF2C00AA5A16 /* ReservationRepository.swift */; };
+		5AAE11952D40DF9400AA5A16 /* ReservationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE11942D40DF8B00AA5A16 /* ReservationUseCase.swift */; };
+		5AAE11992D40EA6E00AA5A16 /* ReservationRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE11982D40EA6400AA5A16 /* ReservationRepositoryImpl.swift */; };
+		5AAE11A52D40F12100AA5A16 /* TicketDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE11A42D40F11B00AA5A16 /* TicketDataSource.swift */; };
+		5AAE11A72D40F34300AA5A16 /* RemoteTicketDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE11A62D40F33B00AA5A16 /* RemoteTicketDataSource.swift */; };
+		5AAE11AE2D40F3A400AA5A16 /* TransactionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE11AB2D40F3A400AA5A16 /* TransactionDataSource.swift */; };
+		5AAE11AF2D40F3A400AA5A16 /* RemoteTransactionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE11AC2D40F3A400AA5A16 /* RemoteTransactionDataSource.swift */; };
+		5AAE11B32D411B6000AA5A16 /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE11B22D411B1800AA5A16 /* TransactionType.swift */; };
+		5AAE2A3D2D3CE24C009B6B54 /* TimeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE2A3C2D3CE24C009B6B54 /* TimeItemView.swift */; };
+		5AB1EB402A641BC7006881CC /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1EB3F2A641BC7006881CC /* CommonFunction.swift */; };
+		5AB1EB422A642039006881CC /* PasswordTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1EB412A642039006881CC /* PasswordTextFieldView.swift */; };
+		5AB1EB442A642551006881CC /* ProfilePicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1EB432A642551006881CC /* ProfilePicView.swift */; };
+		5AB1EB462A64345B006881CC /* EmailTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1EB452A64345B006881CC /* EmailTextFieldView.swift */; };
+		5AB1EB482A643FB4006881CC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1EB472A643FB4006881CC /* ButtonView.swift */; };
+		5AB1EB4A2A6442C7006881CC /* ChooseFavoriteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1EB492A6442C7006881CC /* ChooseFavoriteScreen.swift */; };
+		5AB509622D455557003B8DE6 /* RouteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB509612D45554C003B8DE6 /* RouteExt.swift */; };
+		5AB54CB82C91FF8200F5EED9 /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB54CB72C91FF8200F5EED9 /* MovieDetailScreen.swift */; };
+		5AB54CBB2C91FFFA00F5EED9 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB54CBA2C91FFFA00F5EED9 /* MovieDetailViewModel.swift */; };
+		5AB54CBD2C92005300F5EED9 /* MovieDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB54CBC2C92005300F5EED9 /* MovieDetailEntity.swift */; };
+		5AB667AA2ADB97CB0079EB54 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB667A92ADB97CB0079EB54 /* SessionViewModel.swift */; };
+		5AB667AC2ADBA30D0079EB54 /* AuthenticationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB667AB2ADBA30D0079EB54 /* AuthenticationComponent.swift */; };
+		5ABD31832CC55BB200E81E93 /* RemoteMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABD31822CC55BB200E81E93 /* RemoteMovieModel.swift */; };
+		5ABE44A32A9200E100A6D532 /* ContainerChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE44A22A9200E100A6D532 /* ContainerChooseView.swift */; };
+		5ABE44A52A9247DA00A6D532 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE44A42A9247DA00A6D532 /* HomeScreen.swift */; };
+		5ABE44A72A9255A300A6D532 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE44A62A9255A200A6D532 /* SignInScreen.swift */; };
+		5ABE44A92A925E8D00A6D532 /* ResetPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE44A82A925E8C00A6D532 /* ResetPasswordScreen.swift */; };
+		5AC2B3872D42A8D300EBD8A4 /* FullScreenLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2B3862D42A8D300EBD8A4 /* FullScreenLoadingView.swift */; };
+		5AC2B38A2D42AAB400EBD8A4 /* TopUpWalletScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2B3892D42AAB400EBD8A4 /* TopUpWalletScreen.swift */; };
+		5AC4DE772A62EB8C00FE5D2A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5AC4DE762A62EB8C00FE5D2A /* FirebaseAuth */; };
+		5AC4DE792A62EB8C00FE5D2A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5AC4DE782A62EB8C00FE5D2A /* FirebaseFirestore */; };
+		5AC4DE7B2A62EB8C00FE5D2A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5AC4DE7A2A62EB8C00FE5D2A /* FirebaseStorage */; };
+		5AC4DE802A62F13200FE5D2A /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4DE7F2A62F13200FE5D2A /* RegisterScreen.swift */; };
+		5ACBD1852B00E31C0036DC53 /* UploadImageUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACBD1842B00E31C0036DC53 /* UploadImageUseCase.swift */; };
+		5ACC7C062C1F3B86009C5C20 /* ShimmerEffectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC7C052C1F3B86009C5C20 /* ShimmerEffectModifier.swift */; };
+		5ACEF09E2D3A5C2C0081BC38 /* TheaterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEF09D2D3A5C2C0081BC38 /* TheaterEntity.swift */; };
+		5ACEF66B2D67554B0010FFED /* TransactionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEF66A2D6755440010FFED /* TransactionEntity.swift */; };
+		5ACEF66D2D6755E00010FFED /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEF66C2D6755D60010FFED /* TransactionRepository.swift */; };
+		5ACEF6702D6756330010FFED /* GetTransactionsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEF66F2D6756290010FFED /* GetTransactionsUseCase.swift */; };
+		5ACEF6722D6756970010FFED /* TransactionRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEF6712D67568B0010FFED /* TransactionRepositoryImpl.swift */; };
+		5ACEF6772D675CD10010FFED /* RemoteTransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEF6762D675CC80010FFED /* RemoteTransactionModel.swift */; };
+		5ACEF6792D6761460010FFED /* MyWalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEF6782D67613E0010FFED /* MyWalletViewModel.swift */; };
+		5ACEF67D2D6763860010FFED /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEF67C2D6763860010FFED /* TransactionView.swift */; };
+		5ACFF5282D4E956100FC2E8C /* TicketEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFF5272D4E955A00FC2E8C /* TicketEntity.swift */; };
+		5ACFF52C2D4E982700FC2E8C /* TicketRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFF52B2D4E981A00FC2E8C /* TicketRepository.swift */; };
+		5ACFF52E2D4E992000FC2E8C /* GetNewestTicketsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFF52D2D4E990E00FC2E8C /* GetNewestTicketsUseCase.swift */; };
+		5ACFF5302D4E996E00FC2E8C /* GetExpiredTicketsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFF52F2D4E996300FC2E8C /* GetExpiredTicketsUseCase.swift */; };
+		5ACFF5322D4E9A9400FC2E8C /* GetTicketDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFF5312D4E9A8A00FC2E8C /* GetTicketDetailUseCase.swift */; };
+		5ACFF5342D4E9B9200FC2E8C /* RemoteTicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFF5332D4E9B8A00FC2E8C /* RemoteTicketModel.swift */; };
+		5AD106992D38ED2C00F6F649 /* ReservationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106982D38ED2B00F6F649 /* ReservationViewModel.swift */; };
+		5AD15CDD2CC697EE00505276 /* RemoteMovieListResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD15CDC2CC697EE00505276 /* RemoteMovieListResultModel.swift */; };
+		5AD15CDF2CC69A2D00505276 /* MovieConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD15CDE2CC69A2D00505276 /* MovieConstants.swift */; };
+		5AD15CE12CC6ABB000505276 /* NowInCinemasCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD15CE02CC6ABB000505276 /* NowInCinemasCard.swift */; };
+		5AD460352C271E46007E6EE5 /* DataConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD460342C271E46007E6EE5 /* DataConstants.swift */; };
+		5AD586A62CFB725D00560658 /* ForYouCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD586A52CFB725D00560658 /* ForYouCard.swift */; };
+		5AD87BCC2D3E088200676B0E /* SeatItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD87BCB2D3E088200676B0E /* SeatItemView.swift */; };
+		5AD87BCE2D3E098000676B0E /* SeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD87BCD2D3E098000676B0E /* SeatView.swift */; };
+		5AD87BD02D3E214100676B0E /* CheckoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD87BCF2D3E214100676B0E /* CheckoutScreen.swift */; };
+		5AD87BD22D3E34C200676B0E /* RouteEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD87BD12D3E34B500676B0E /* RouteEnum.swift */; };
+		5ADB22CF2D8C60D8000374B8 /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB22CE2D8C60D8000374B8 /* RootScreen.swift */; };
+		5ADB78292ADAEA0800BB48C1 /* FullNameTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB78282ADAEA0800BB48C1 /* FullNameTextFieldView.swift */; };
+		5ADBF56C2AB037B400F0E089 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF56B2AB037B400F0E089 /* AuthenticationViewModel.swift */; };
+		5ADBF5762AB03FC400F0E089 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5752AB03FC400F0E089 /* AuthenticationRepository.swift */; };
+		5ADBF5782AB0403100F0E089 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5772AB0403100F0E089 /* UserEntity.swift */; };
+		5ADBF57C2AB042A900F0E089 /* SignUpUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF57B2AB042A900F0E089 /* SignUpUseCase.swift */; };
+		5ADBF57E2AB06AD100F0E089 /* SignInUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF57D2AB06AD100F0E089 /* SignInUseCase.swift */; };
+		5ADBF5802AB06B0A00F0E089 /* ForgotPasswordUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF57F2AB06B0A00F0E089 /* ForgotPasswordUseCase.swift */; };
+		5ADBF5862AB0DA5F00F0E089 /* SessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5852AB0DA5F00F0E089 /* SessionRepository.swift */; };
+		5ADBF5882AB0DADE00F0E089 /* SessionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5872AB0DADE00F0E089 /* SessionEntity.swift */; };
+		5ADBF58B2AB0DBC600F0E089 /* SaveSessionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF58A2AB0DBC600F0E089 /* SaveSessionUseCase.swift */; };
+		5ADBF58D2AB0DC1600F0E089 /* RemoveSessionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF58C2AB0DC1600F0E089 /* RemoveSessionUseCase.swift */; };
+		5ADBF58F2AB0DC3A00F0E089 /* CheckSessionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF58E2AB0DC3A00F0E089 /* CheckSessionUseCase.swift */; };
+		5ADBF5912AB0DCB500F0E089 /* AuthenticationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5902AB0DCB500F0E089 /* AuthenticationDataSource.swift */; };
+		5ADBF5932AB0DCE900F0E089 /* AuthenticationRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5922AB0DCE900F0E089 /* AuthenticationRepositoryImpl.swift */; };
+		5ADBF5952AB0DDA800F0E089 /* FirebaseAuthenticationDataSourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5942AB0DDA800F0E089 /* FirebaseAuthenticationDataSourceImpl.swift */; };
+		5ADBF5982AB0DF3D00F0E089 /* SessionRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5972AB0DF3D00F0E089 /* SessionRepositoryImpl.swift */; };
+		5ADBF59A2AB0DF5700F0E089 /* SessionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF5992AB0DF5700F0E089 /* SessionDataSource.swift */; };
+		5ADBF59C2AB0DF6800F0E089 /* LocalSessionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBF59B2AB0DF6800F0E089 /* LocalSessionDataSource.swift */; };
+		5ADE38FC2AEFDFC100B9D3CE /* AccountConfirmationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADE38FB2AEFDFC100B9D3CE /* AccountConfirmationScreen.swift */; };
+		5AF1E9082B20A77600C8930B /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E9072B20A77600C8930B /* ProfileViewModel.swift */; };
+		5AF1E90D2B20AA6F00C8930B /* ProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E90C2B20AA6F00C8930B /* ProfileRepository.swift */; };
+		5AF1E90F2B20AB1F00C8930B /* GetProfileUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E90E2B20AB1F00C8930B /* GetProfileUseCase.swift */; };
+		5AF1E9112B20ABAB00C8930B /* EditProfileUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E9102B20ABAB00C8930B /* EditProfileUseCase.swift */; };
+		5AF1E9152B20AD8800C8930B /* ProfileComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E9142B20AD8800C8930B /* ProfileComponent.swift */; };
+		5AF1E9172B20AE5E00C8930B /* ProfileRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E9162B20AE5E00C8930B /* ProfileRepositoryImpl.swift */; };
+		5AF1E9192B20AE8000C8930B /* ProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E9182B20AE8000C8930B /* ProfileDataSource.swift */; };
+		5AF1E91C2B20AEC300C8930B /* RemoteProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E91B2B20AEC300C8930B /* RemoteProfileDataSource.swift */; };
+		5AF1E91E2B20B06D00C8930B /* RemoteProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1E91D2B20B06D00C8930B /* RemoteProfileModel.swift */; };
+		5AF2D8EB2B8762A300B10BBA /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2D8EA2B8762A200B10BBA /* CategoryView.swift */; };
+		5AFA223C2D550A4E00170845 /* TicketListShimmerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA223B2D550A4E00170845 /* TicketListShimmerLoadingView.swift */; };
+		5AFCCDE52D39443700ABDBA7 /* DateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFCCDE42D39443700ABDBA7 /* DateItemView.swift */; };
+		5AFCCDE92D39461300ABDBA7 /* TimeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFCCDE82D39461300ABDBA7 /* TimeEntity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A0141A82D32A16000379465 /* GetMovieDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovieDetailUseCase.swift; sourceTree = "<group>"; };
+		5A0141AA2D32A30200379465 /* RemoteMovieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMovieDetailModel.swift; sourceTree = "<group>"; };
+		5A0141AC2D32AB4C00379465 /* RemoteGenreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGenreModel.swift; sourceTree = "<group>"; };
+		5A0141AE2D32E76900379465 /* MovieDetailShimmerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailShimmerLoadingView.swift; sourceTree = "<group>"; };
+		5A03B1A42A59D1F600E51F03 /* swiflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A03B1A72A59D1F600E51F03 /* swiflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiflixApp.swift; sourceTree = "<group>"; };
+		5A03B1AB2A59D1F800E51F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A03B1AE2A59D1F800E51F03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A0759F02D68A9D400107F95 /* TransactionShimmerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionShimmerLoadingView.swift; sourceTree = "<group>"; };
+		5A13203B2D57490400586F52 /* TicketDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailScreen.swift; sourceTree = "<group>"; };
+		5A1D87AD2B52A5B0007F36E7 /* MovieScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScreen.swift; sourceTree = "<group>"; };
+		5A1D87AF2B52A5DA007F36E7 /* TicketScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketScreen.swift; sourceTree = "<group>"; };
+		5A1D87B12B52A5EE007F36E7 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		5A1D87B42B52B69B007F36E7 /* MovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
+		5A1D87B62B52B97A007F36E7 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		5A1D87B92B52C650007F36E7 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		5A221BF12B1CAAA3004C2F6B /* SessionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionKey.swift; sourceTree = "<group>"; };
+		5A2264152D7D85620045C505 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		5A27972E2D4FAF3C00B0FD5B /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		5A2797302D4FBB7D00B0FD5B /* NewestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewestListView.swift; sourceTree = "<group>"; };
+		5A2797322D4FBB8900B0FD5B /* ExpiredListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiredListView.swift; sourceTree = "<group>"; };
+		5A2797342D4FBDF000B0FD5B /* TicketListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListViewModel.swift; sourceTree = "<group>"; };
+		5A2797362D4FBFC900B0FD5B /* TicketRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRepositoryImpl.swift; sourceTree = "<group>"; };
+		5A2881F22A5BDD9400001FC6 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		5A2881FA2A5C12A000001FC6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5A33F7CE2B1CB6CE00C2D85A /* SessionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionComponent.swift; sourceTree = "<group>"; };
+		5A3D4C572D1D9A3F002CCA3A /* RatingStarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStarWidget.swift; sourceTree = "<group>"; };
+		5A3D4C592D1DAF80002CCA3A /* CastEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastEntity.swift; sourceTree = "<group>"; };
+		5A3D4C5B2D1DB0EF002CCA3A /* GetCreditsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCreditsUseCase.swift; sourceTree = "<group>"; };
+		5A3D4C5E2D1DB3F9002CCA3A /* RemoteCastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCastModel.swift; sourceTree = "<group>"; };
+		5A3D4C602D1DB6EE002CCA3A /* RemoteCastResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCastResult.swift; sourceTree = "<group>"; };
+		5A422D512D8F178E00A9A3DF /* DataUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
+		5A45488E2C1AC21C0060C5F8 /* AuthenticationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUtils.swift; sourceTree = "<group>"; };
+		5A5556582D4E1362006C19AA /* TopUpTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpTemplateView.swift; sourceTree = "<group>"; };
+		5A55565A2D4E1B21006C19AA /* TopUpWalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWalletViewModel.swift; sourceTree = "<group>"; };
+		5A55565F2D4E1BA4006C19AA /* TopUpWalletUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWalletUseCase.swift; sourceTree = "<group>"; };
+		5A5556612D4E1BBC006C19AA /* WalletRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletRepository.swift; sourceTree = "<group>"; };
+		5A5556642D4E1F2C006C19AA /* WalletRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletRepositoryImpl.swift; sourceTree = "<group>"; };
+		5A5556662D4E36DE006C19AA /* MyWalletScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletScreen.swift; sourceTree = "<group>"; };
+		5A5556682D4E36FE006C19AA /* SuccessTopUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessTopUpScreen.swift; sourceTree = "<group>"; };
+		5A59BF5E2C21C43300A0ECF2 /* EditProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileScreen.swift; sourceTree = "<group>"; };
+		5A5FE2962AB8B459009D0053 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		5A60FA3B2B8B381C000506DF /* GenreEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreEnum.swift; sourceTree = "<group>"; };
+		5A60FA452B8C3911000506DF /* UploadImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewModel.swift; sourceTree = "<group>"; };
+		5A6497482D676D3000377F07 /* IncomePlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomePlaceholderView.swift; sourceTree = "<group>"; };
+		5A6E685F2A6300ED001058AB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5A76121C2D3CEC3000C747C6 /* ChooseSeatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSeatScreen.swift; sourceTree = "<group>"; };
+		5A76121E2D3CF39600C747C6 /* ReservationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationEntity.swift; sourceTree = "<group>"; };
+		5A7612202D3D3FC900C747C6 /* SeatStatusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatStatusEnum.swift; sourceTree = "<group>"; };
+		5A7BC0A82C3D6A0100EB2FCC /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		5A86A7B22C1A027700AC17BC /* ProfileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUtils.swift; sourceTree = "<group>"; };
+		5A90F8082AB70AEA00590400 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		5A993EA32A5C28CA0039CB6C /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5A993EA52A5C28CF0039CB6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5AA130012C932CE70096B7A4 /* GenreEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreEntity.swift; sourceTree = "<group>"; };
+		5AA130032C9330920096B7A4 /* GetForYouListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetForYouListUseCase.swift; sourceTree = "<group>"; };
+		5AA130052C9330B00096B7A4 /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
+		5AA130092C9332EC0096B7A4 /* GetNowPlayingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNowPlayingUseCase.swift; sourceTree = "<group>"; };
+		5AA1300B2C93331E0096B7A4 /* GetUpcomingListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUpcomingListUseCase.swift; sourceTree = "<group>"; };
+		5AA1300D2C9333370096B7A4 /* MovieComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieComponent.swift; sourceTree = "<group>"; };
+		5AA130102C9333E80096B7A4 /* MovieRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepositoryImpl.swift; sourceTree = "<group>"; };
+		5AA130132C9334990096B7A4 /* MovieDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataSource.swift; sourceTree = "<group>"; };
+		5AA130152C9334BF0096B7A4 /* RemoteMovieDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMovieDataSource.swift; sourceTree = "<group>"; };
+		5AA381632C8F5719000D7C1D /* ForYouShimmerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouShimmerLoadingView.swift; sourceTree = "<group>"; };
+		5AA381652C8F5741000D7C1D /* FavoriteCategoryShimmerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCategoryShimmerLoadingView.swift; sourceTree = "<group>"; };
+		5AA381672C8F575C000D7C1D /* NowInCinemasShimmerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowInCinemasShimmerLoadingView.swift; sourceTree = "<group>"; };
+		5AA381692C8F577A000D7C1D /* ComingSoonShimmerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonShimmerLoadingView.swift; sourceTree = "<group>"; };
+		5AAA1F5D2D378CDA00D4A3EE /* ReservationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationScreen.swift; sourceTree = "<group>"; };
+		5AAA1F812D37D31300D4A3EE /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		5AAE118E2D40C51B00AA5A16 /* SuccessReservationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessReservationScreen.swift; sourceTree = "<group>"; };
+		5AAE11922D40DF2C00AA5A16 /* ReservationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationRepository.swift; sourceTree = "<group>"; };
+		5AAE11942D40DF8B00AA5A16 /* ReservationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationUseCase.swift; sourceTree = "<group>"; };
+		5AAE11982D40EA6400AA5A16 /* ReservationRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationRepositoryImpl.swift; sourceTree = "<group>"; };
+		5AAE11A42D40F11B00AA5A16 /* TicketDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDataSource.swift; sourceTree = "<group>"; };
+		5AAE11A62D40F33B00AA5A16 /* RemoteTicketDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTicketDataSource.swift; sourceTree = "<group>"; };
+		5AAE11AB2D40F3A400AA5A16 /* TransactionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDataSource.swift; sourceTree = "<group>"; };
+		5AAE11AC2D40F3A400AA5A16 /* RemoteTransactionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTransactionDataSource.swift; sourceTree = "<group>"; };
+		5AAE11B22D411B1800AA5A16 /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		5AAE2A3C2D3CE24C009B6B54 /* TimeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeItemView.swift; sourceTree = "<group>"; };
+		5AB1EB3F2A641BC7006881CC /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		5AB1EB412A642039006881CC /* PasswordTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldView.swift; sourceTree = "<group>"; };
+		5AB1EB432A642551006881CC /* ProfilePicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicView.swift; sourceTree = "<group>"; };
+		5AB1EB452A64345B006881CC /* EmailTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldView.swift; sourceTree = "<group>"; };
+		5AB1EB472A643FB4006881CC /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		5AB1EB492A6442C7006881CC /* ChooseFavoriteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFavoriteScreen.swift; sourceTree = "<group>"; };
+		5AB509612D45554C003B8DE6 /* RouteExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteExt.swift; sourceTree = "<group>"; };
+		5AB54CB72C91FF8200F5EED9 /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
+		5AB54CBA2C91FFFA00F5EED9 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		5AB54CBC2C92005300F5EED9 /* MovieDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailEntity.swift; sourceTree = "<group>"; };
+		5AB667A92ADB97CB0079EB54 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		5AB667AB2ADBA30D0079EB54 /* AuthenticationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationComponent.swift; sourceTree = "<group>"; };
+		5ABD31822CC55BB200E81E93 /* RemoteMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMovieModel.swift; sourceTree = "<group>"; };
+		5ABE44A22A9200E100A6D532 /* ContainerChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerChooseView.swift; sourceTree = "<group>"; };
+		5ABE44A42A9247DA00A6D532 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		5ABE44A62A9255A200A6D532 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		5ABE44A82A925E8C00A6D532 /* ResetPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordScreen.swift; sourceTree = "<group>"; };
+		5AC2B3862D42A8D300EBD8A4 /* FullScreenLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenLoadingView.swift; sourceTree = "<group>"; };
+		5AC2B3892D42AAB400EBD8A4 /* TopUpWalletScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpWalletScreen.swift; sourceTree = "<group>"; };
+		5AC4DE7F2A62F13200FE5D2A /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		5ACBD1842B00E31C0036DC53 /* UploadImageUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageUseCase.swift; sourceTree = "<group>"; };
+		5ACC7C052C1F3B86009C5C20 /* ShimmerEffectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffectModifier.swift; sourceTree = "<group>"; };
+		5ACEF09D2D3A5C2C0081BC38 /* TheaterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterEntity.swift; sourceTree = "<group>"; };
+		5ACEF66A2D6755440010FFED /* TransactionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionEntity.swift; sourceTree = "<group>"; };
+		5ACEF66C2D6755D60010FFED /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		5ACEF66F2D6756290010FFED /* GetTransactionsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTransactionsUseCase.swift; sourceTree = "<group>"; };
+		5ACEF6712D67568B0010FFED /* TransactionRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepositoryImpl.swift; sourceTree = "<group>"; };
+		5ACEF6762D675CC80010FFED /* RemoteTransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTransactionModel.swift; sourceTree = "<group>"; };
+		5ACEF6782D67613E0010FFED /* MyWalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletViewModel.swift; sourceTree = "<group>"; };
+		5ACEF67C2D6763860010FFED /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		5ACFF5272D4E955A00FC2E8C /* TicketEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketEntity.swift; sourceTree = "<group>"; };
+		5ACFF52B2D4E981A00FC2E8C /* TicketRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRepository.swift; sourceTree = "<group>"; };
+		5ACFF52D2D4E990E00FC2E8C /* GetNewestTicketsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNewestTicketsUseCase.swift; sourceTree = "<group>"; };
+		5ACFF52F2D4E996300FC2E8C /* GetExpiredTicketsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetExpiredTicketsUseCase.swift; sourceTree = "<group>"; };
+		5ACFF5312D4E9A8A00FC2E8C /* GetTicketDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTicketDetailUseCase.swift; sourceTree = "<group>"; };
+		5ACFF5332D4E9B8A00FC2E8C /* RemoteTicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTicketModel.swift; sourceTree = "<group>"; };
+		5AD106982D38ED2B00F6F649 /* ReservationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewModel.swift; sourceTree = "<group>"; };
+		5AD15CDC2CC697EE00505276 /* RemoteMovieListResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMovieListResultModel.swift; sourceTree = "<group>"; };
+		5AD15CDE2CC69A2D00505276 /* MovieConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieConstants.swift; sourceTree = "<group>"; };
+		5AD15CE02CC6ABB000505276 /* NowInCinemasCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowInCinemasCard.swift; sourceTree = "<group>"; };
+		5AD460342C271E46007E6EE5 /* DataConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConstants.swift; sourceTree = "<group>"; };
+		5AD586A52CFB725D00560658 /* ForYouCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouCard.swift; sourceTree = "<group>"; };
+		5AD87BCB2D3E088200676B0E /* SeatItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatItemView.swift; sourceTree = "<group>"; };
+		5AD87BCD2D3E098000676B0E /* SeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatView.swift; sourceTree = "<group>"; };
+		5AD87BCF2D3E214100676B0E /* CheckoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutScreen.swift; sourceTree = "<group>"; };
+		5AD87BD12D3E34B500676B0E /* RouteEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEnum.swift; sourceTree = "<group>"; };
+		5ADB22CE2D8C60D8000374B8 /* RootScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
+		5ADB78282ADAEA0800BB48C1 /* FullNameTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNameTextFieldView.swift; sourceTree = "<group>"; };
+		5ADBF56B2AB037B400F0E089 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		5ADBF5752AB03FC400F0E089 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
+		5ADBF5772AB0403100F0E089 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		5ADBF57B2AB042A900F0E089 /* SignUpUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUseCase.swift; sourceTree = "<group>"; };
+		5ADBF57D2AB06AD100F0E089 /* SignInUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUseCase.swift; sourceTree = "<group>"; };
+		5ADBF57F2AB06B0A00F0E089 /* ForgotPasswordUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordUseCase.swift; sourceTree = "<group>"; };
+		5ADBF5852AB0DA5F00F0E089 /* SessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRepository.swift; sourceTree = "<group>"; };
+		5ADBF5872AB0DADE00F0E089 /* SessionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionEntity.swift; sourceTree = "<group>"; };
+		5ADBF58A2AB0DBC600F0E089 /* SaveSessionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSessionUseCase.swift; sourceTree = "<group>"; };
+		5ADBF58C2AB0DC1600F0E089 /* RemoveSessionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveSessionUseCase.swift; sourceTree = "<group>"; };
+		5ADBF58E2AB0DC3A00F0E089 /* CheckSessionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSessionUseCase.swift; sourceTree = "<group>"; };
+		5ADBF5902AB0DCB500F0E089 /* AuthenticationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationDataSource.swift; sourceTree = "<group>"; };
+		5ADBF5922AB0DCE900F0E089 /* AuthenticationRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepositoryImpl.swift; sourceTree = "<group>"; };
+		5ADBF5942AB0DDA800F0E089 /* FirebaseAuthenticationDataSourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthenticationDataSourceImpl.swift; sourceTree = "<group>"; };
+		5ADBF5972AB0DF3D00F0E089 /* SessionRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRepositoryImpl.swift; sourceTree = "<group>"; };
+		5ADBF5992AB0DF5700F0E089 /* SessionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataSource.swift; sourceTree = "<group>"; };
+		5ADBF59B2AB0DF6800F0E089 /* LocalSessionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSessionDataSource.swift; sourceTree = "<group>"; };
+		5ADE38FB2AEFDFC100B9D3CE /* AccountConfirmationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConfirmationScreen.swift; sourceTree = "<group>"; };
+		5AF1E9072B20A77600C8930B /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		5AF1E90C2B20AA6F00C8930B /* ProfileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRepository.swift; sourceTree = "<group>"; };
+		5AF1E90E2B20AB1F00C8930B /* GetProfileUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProfileUseCase.swift; sourceTree = "<group>"; };
+		5AF1E9102B20ABAB00C8930B /* EditProfileUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileUseCase.swift; sourceTree = "<group>"; };
+		5AF1E9142B20AD8800C8930B /* ProfileComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileComponent.swift; sourceTree = "<group>"; };
+		5AF1E9162B20AE5E00C8930B /* ProfileRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRepositoryImpl.swift; sourceTree = "<group>"; };
+		5AF1E9182B20AE8000C8930B /* ProfileDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataSource.swift; sourceTree = "<group>"; };
+		5AF1E91B2B20AEC300C8930B /* RemoteProfileDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProfileDataSource.swift; sourceTree = "<group>"; };
+		5AF1E91D2B20B06D00C8930B /* RemoteProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProfileModel.swift; sourceTree = "<group>"; };
+		5AF2D8EA2B8762A200B10BBA /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		5AFA223B2D550A4E00170845 /* TicketListShimmerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListShimmerLoadingView.swift; sourceTree = "<group>"; };
+		5AFCCDE42D39443700ABDBA7 /* DateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateItemView.swift; sourceTree = "<group>"; };
+		5AFCCDE82D39461300ABDBA7 /* TimeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A03B1A12A59D1F600E51F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A462C002C6CD9BB00F7A456 /* Shimmer in Frameworks */,
+				5AC4DE772A62EB8C00FE5D2A /* FirebaseAuth in Frameworks */,
+				5AC4DE792A62EB8C00FE5D2A /* FirebaseFirestore in Frameworks */,
+				5AC4DE7B2A62EB8C00FE5D2A /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A03B19B2A59D1F600E51F03 = {
+			isa = PBXGroup;
+			children = (
+				5A993EA42A5C28CA0039CB6C /* Localizable.strings */,
+				5A03B1A62A59D1F600E51F03 /* swiflix */,
+				5A03B1A52A59D1F600E51F03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A03B1A52A59D1F600E51F03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A03B1A42A59D1F600E51F03 /* swiflix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A03B1A62A59D1F600E51F03 /* swiflix */ = {
+			isa = PBXGroup;
+			children = (
+				5A90F8082AB70AEA00590400 /* DependencyInjection.swift */,
+				5AD87BD32D3E350100676B0E /* Navigation Manager */,
+				5A3D4C562D1D960A002CCA3A /* Shared */,
+				5A2881F12A5BDBB600001FC6 /* Data */,
+				5AB1EB3E2A63CB50006881CC /* Domain */,
+				5A2881F02A5BDBAE00001FC6 /* View */,
+				5A03B1A72A59D1F600E51F03 /* swiflixApp.swift */,
+				5A03B1AB2A59D1F800E51F03 /* Assets.xcassets */,
+				5A03B1AD2A59D1F800E51F03 /* Preview Content */,
+			);
+			path = swiflix;
+			sourceTree = "<group>";
+		};
+		5A03B1AD2A59D1F800E51F03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A03B1AE2A59D1F800E51F03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A1D87B32B52B5C4007F36E7 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				5AA130082C9331870096B7A4 /* Use Case */,
+				5AA130072C9331750096B7A4 /* Entity */,
+				5AA130052C9330B00096B7A4 /* MovieRepository.swift */,
+				5AA1300D2C9333370096B7A4 /* MovieComponent.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		5A1D87BB2B52F137007F36E7 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				5AB54CB92C91FFAD00F5EED9 /* View Model */,
+				5AA381622C8F56F4000D7C1D /* Widget */,
+				5A1D87AD2B52A5B0007F36E7 /* MovieScreen.swift */,
+				5AB54CB72C91FF8200F5EED9 /* MovieDetailScreen.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		5A27972B2D4FAF0A00B0FD5B /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5A27972E2D4FAF3C00B0FD5B /* TicketView.swift */,
+				5A2797302D4FBB7D00B0FD5B /* NewestListView.swift */,
+				5A2797322D4FBB8900B0FD5B /* ExpiredListView.swift */,
+				5AFA223B2D550A4E00170845 /* TicketListShimmerLoadingView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		5A27972C2D4FAF0F00B0FD5B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5A1D87AF2B52A5DA007F36E7 /* TicketScreen.swift */,
+				5A13203B2D57490400586F52 /* TicketDetailScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5A27972D2D4FAF1600B0FD5B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A2797342D4FBDF000B0FD5B /* TicketListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5A2881F02A5BDBAE00001FC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF5712AB03A1500F0E089 /* Authentication */,
+				5AC2B3882D42AA9D00EBD8A4 /* Wallet */,
+				5AC2B3852D42A8B000EBD8A4 /* Widget */,
+				5AAA1F5C2D378CB500D4A3EE /* Reservation */,
+				5A59BF5D2C2189A700A0ECF2 /* Home */,
+				5A59BF5A2C21893900A0ECF2 /* Ticket */,
+				5A59BF582C2188C800A0ECF2 /* Profile */,
+				5A1D87BB2B52F137007F36E7 /* Movie */,
+				5A2881F22A5BDD9400001FC6 /* OnBoardingScreen.swift */,
+				5A2264152D7D85620045C505 /* SplashScreen.swift */,
+				5ADB22CE2D8C60D8000374B8 /* RootScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A2881F12A5BDBB600001FC6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5A5556632D4E1CF1006C19AA /* Wallet */,
+				5AAE11A82D40F38D00AA5A16 /* Transaction */,
+				5AAE11A22D40F10500AA5A16 /* Ticket */,
+				5AAE11962D40DFDE00AA5A16 /* Reservation */,
+				5A45489D2C1B64CB0060C5F8 /* Movie */,
+				5AF1E9092B20A9B900C8930B /* Profile */,
+				5ADBF5842AB0DA2800F0E089 /* Session */,
+				5ADBF5702AB039F900F0E089 /* Authentication */,
+				5AD460342C271E46007E6EE5 /* DataConstants.swift */,
+				5A422D512D8F178E00A9A3DF /* DataUtils.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5A3D4C562D1D960A002CCA3A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5ACC7C052C1F3B86009C5C20 /* ShimmerEffectModifier.swift */,
+				5A1D87B92B52C650007F36E7 /* RemoteImage.swift */,
+				5A2881FA2A5C12A000001FC6 /* Extension.swift */,
+				5A6E685F2A6300ED001058AB /* Constants.swift */,
+				5AB1EB3F2A641BC7006881CC /* CommonFunction.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5A3D4C5D2D1DB3E5002CCA3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ABD31822CC55BB200E81E93 /* RemoteMovieModel.swift */,
+				5AD15CDC2CC697EE00505276 /* RemoteMovieListResultModel.swift */,
+				5A3D4C5E2D1DB3F9002CCA3A /* RemoteCastModel.swift */,
+				5A3D4C602D1DB6EE002CCA3A /* RemoteCastResult.swift */,
+				5A0141AA2D32A30200379465 /* RemoteMovieDetailModel.swift */,
+				5A0141AC2D32AB4C00379465 /* RemoteGenreModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A45489D2C1B64CB0060C5F8 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1300F2C9333CD0096B7A4 /* Remote */,
+				5AA130102C9333E80096B7A4 /* MovieRepositoryImpl.swift */,
+				5AA130132C9334990096B7A4 /* MovieDataSource.swift */,
+				5AD15CDE2CC69A2D00505276 /* MovieConstants.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		5A55565C2D4E1B7B006C19AA /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				5A55565E2D4E1B8C006C19AA /* Use Case */,
+				5A55565D2D4E1B85006C19AA /* Entity */,
+				5A5556612D4E1BBC006C19AA /* WalletRepository.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		5A55565D2D4E1B85006C19AA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5A55565E2D4E1B8C006C19AA /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				5A55565F2D4E1BA4006C19AA /* TopUpWalletUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		5A5556632D4E1CF1006C19AA /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				5A5556642D4E1F2C006C19AA /* WalletRepositoryImpl.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		5A55566A2D4E3751006C19AA /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5AC2B3892D42AAB400EBD8A4 /* TopUpWalletScreen.swift */,
+				5A5556682D4E36FE006C19AA /* SuccessTopUpScreen.swift */,
+				5A5556662D4E36DE006C19AA /* MyWalletScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5A55566B2D4E3759006C19AA /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5A5556582D4E1362006C19AA /* TopUpTemplateView.swift */,
+				5ACEF67C2D6763860010FFED /* TransactionView.swift */,
+				5A6497482D676D3000377F07 /* IncomePlaceholderView.swift */,
+				5A0759F02D68A9D400107F95 /* TransactionShimmerLoadingView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		5A55566C2D4E3760006C19AA /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEF6782D67613E0010FFED /* MyWalletViewModel.swift */,
+				5A55565A2D4E1B21006C19AA /* TopUpWalletViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5A59BF582C2188C800A0ECF2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5A1D87B12B52A5EE007F36E7 /* ProfileScreen.swift */,
+				5AF1E9072B20A77600C8930B /* ProfileViewModel.swift */,
+				5A59BF5E2C21C43300A0ECF2 /* EditProfileScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5A59BF592C2188E500A0ECF2 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF56B2AB037B400F0E089 /* AuthenticationViewModel.swift */,
+				5A5FE2962AB8B459009D0053 /* RegisterViewModel.swift */,
+				5AB667A92ADB97CB0079EB54 /* SessionViewModel.swift */,
+				5A60FA452B8C3911000506DF /* UploadImageViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5A59BF5A2C21893900A0ECF2 /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				5A27972D2D4FAF1600B0FD5B /* View Model */,
+				5A27972C2D4FAF0F00B0FD5B /* Screen */,
+				5A27972B2D4FAF0A00B0FD5B /* Widget */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		5A59BF5B2C21896200A0ECF2 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5AB1EB492A6442C7006881CC /* ChooseFavoriteScreen.swift */,
+				5AC4DE7F2A62F13200FE5D2A /* RegisterScreen.swift */,
+				5ABE44A62A9255A200A6D532 /* SignInScreen.swift */,
+				5ABE44A82A925E8C00A6D532 /* ResetPasswordScreen.swift */,
+				5ADE38FB2AEFDFC100B9D3CE /* AccountConfirmationScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5A59BF5C2C21898500A0ECF2 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE44A22A9200E100A6D532 /* ContainerChooseView.swift */,
+				5AB1EB412A642039006881CC /* PasswordTextFieldView.swift */,
+				5AB1EB452A64345B006881CC /* EmailTextFieldView.swift */,
+				5AB1EB432A642551006881CC /* ProfilePicView.swift */,
+				5AB1EB472A643FB4006881CC /* ButtonView.swift */,
+				5ADB78282ADAEA0800BB48C1 /* FullNameTextFieldView.swift */,
+				5A7BC0A82C3D6A0100EB2FCC /* TextFieldView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		5A59BF5D2C2189A700A0ECF2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE44A42A9247DA00A6D532 /* HomeScreen.swift */,
+				5AF2D8EA2B8762A200B10BBA /* CategoryView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5AA130072C9331750096B7A4 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5A1D87B42B52B69B007F36E7 /* MovieEntity.swift */,
+				5A60FA3B2B8B381C000506DF /* GenreEnum.swift */,
+				5AB54CBC2C92005300F5EED9 /* MovieDetailEntity.swift */,
+				5AA130012C932CE70096B7A4 /* GenreEntity.swift */,
+				5A3D4C592D1DAF80002CCA3A /* CastEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5AA130082C9331870096B7A4 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				5AA130032C9330920096B7A4 /* GetForYouListUseCase.swift */,
+				5AA130092C9332EC0096B7A4 /* GetNowPlayingUseCase.swift */,
+				5AA1300B2C93331E0096B7A4 /* GetUpcomingListUseCase.swift */,
+				5A3D4C5B2D1DB0EF002CCA3A /* GetCreditsUseCase.swift */,
+				5A0141A82D32A16000379465 /* GetMovieDetailUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		5AA1300F2C9333CD0096B7A4 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				5A3D4C5D2D1DB3E5002CCA3A /* Model */,
+				5AA130152C9334BF0096B7A4 /* RemoteMovieDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		5AA381622C8F56F4000D7C1D /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5AA381632C8F5719000D7C1D /* ForYouShimmerLoadingView.swift */,
+				5AA381652C8F5741000D7C1D /* FavoriteCategoryShimmerLoadingView.swift */,
+				5AA381672C8F575C000D7C1D /* NowInCinemasShimmerLoadingView.swift */,
+				5AA381692C8F577A000D7C1D /* ComingSoonShimmerLoadingView.swift */,
+				5AD15CE02CC6ABB000505276 /* NowInCinemasCard.swift */,
+				5AD586A52CFB725D00560658 /* ForYouCard.swift */,
+				5A3D4C572D1D9A3F002CCA3A /* RatingStarWidget.swift */,
+				5A0141AE2D32E76900379465 /* MovieDetailShimmerLoadingView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		5AAA1F5C2D378CB500D4A3EE /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				5AFCCDE12D39440B00ABDBA7 /* Widget */,
+				5AAA1F5D2D378CDA00D4A3EE /* ReservationScreen.swift */,
+				5AD106982D38ED2B00F6F649 /* ReservationViewModel.swift */,
+				5A76121C2D3CEC3000C747C6 /* ChooseSeatScreen.swift */,
+				5AD87BCF2D3E214100676B0E /* CheckoutScreen.swift */,
+				5AAE118E2D40C51B00AA5A16 /* SuccessReservationScreen.swift */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		5AAE11902D40DEFA00AA5A16 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5A7612202D3D3FC900C747C6 /* SeatStatusEnum.swift */,
+				5A76121E2D3CF39600C747C6 /* ReservationEntity.swift */,
+				5ACEF09D2D3A5C2C0081BC38 /* TheaterEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5AAE11912D40DF0F00AA5A16 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				5AAE11942D40DF8B00AA5A16 /* ReservationUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		5AAE11962D40DFDE00AA5A16 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				5AAE11982D40EA6400AA5A16 /* ReservationRepositoryImpl.swift */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		5AAE11A22D40F10500AA5A16 /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				5A2797362D4FBFC900B0FD5B /* TicketRepositoryImpl.swift */,
+				5AAE11A42D40F11B00AA5A16 /* TicketDataSource.swift */,
+				5AAE11A32D40F11300AA5A16 /* Remote */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		5AAE11A32D40F11300AA5A16 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				5ACFF5352D4E9BD000FC2E8C /* Model */,
+				5AAE11A62D40F33B00AA5A16 /* RemoteTicketDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		5AAE11A82D40F38D00AA5A16 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEF6712D67568B0010FFED /* TransactionRepositoryImpl.swift */,
+				5AAE11AB2D40F3A400AA5A16 /* TransactionDataSource.swift */,
+				5AAE11AD2D40F3A400AA5A16 /* Remote */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		5AAE11AD2D40F3A400AA5A16 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEF6752D675CC30010FFED /* Model */,
+				5AAE11AC2D40F3A400AA5A16 /* RemoteTransactionDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		5AAE11B02D411B0800AA5A16 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEF66E2D6756200010FFED /* Use Case */,
+				5ACEF66C2D6755D60010FFED /* TransactionRepository.swift */,
+				5AAE11B12D411B1100AA5A16 /* Entity */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		5AAE11B12D411B1100AA5A16 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEF66A2D6755440010FFED /* TransactionEntity.swift */,
+				5AAE11B22D411B1800AA5A16 /* TransactionType.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5AB1EB3E2A63CB50006881CC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5A55565C2D4E1B7B006C19AA /* Wallet */,
+				5AAE11B02D411B0800AA5A16 /* Transaction */,
+				5ACFF5262D4E952C00FC2E8C /* Ticket */,
+				5ACEF09C2D3A5BFF0081BC38 /* Reservation */,
+				5AFCCDE62D3945E200ABDBA7 /* Common */,
+				5A1D87B32B52B5C4007F36E7 /* Movie */,
+				5AF1E90A2B20A9DE00C8930B /* Profile */,
+				5ADBF5832AB0DA1E00F0E089 /* Session */,
+				5ADBF5742AB03FAB00F0E089 /* Authentication */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5AB54CB92C91FFAD00F5EED9 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A1D87B62B52B97A007F36E7 /* MovieViewModel.swift */,
+				5AB54CBA2C91FFFA00F5EED9 /* MovieDetailViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5AC2B3852D42A8B000EBD8A4 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5AC2B3862D42A8D300EBD8A4 /* FullScreenLoadingView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		5AC2B3882D42AA9D00EBD8A4 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				5A55566C2D4E3760006C19AA /* View Model */,
+				5A55566B2D4E3759006C19AA /* Widget */,
+				5A55566A2D4E3751006C19AA /* Screen */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		5ACEF09C2D3A5BFF0081BC38 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				5AAE11922D40DF2C00AA5A16 /* ReservationRepository.swift */,
+				5AAE11912D40DF0F00AA5A16 /* Use Case */,
+				5AAE11902D40DEFA00AA5A16 /* Entity */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		5ACEF66E2D6756200010FFED /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEF66F2D6756290010FFED /* GetTransactionsUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		5ACEF6752D675CC30010FFED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEF6762D675CC80010FFED /* RemoteTransactionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5ACFF5262D4E952C00FC2E8C /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				5ACFF52B2D4E981A00FC2E8C /* TicketRepository.swift */,
+				5ACFF52A2D4E980D00FC2E8C /* Entity */,
+				5ACFF5292D4E980500FC2E8C /* Use Case */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		5ACFF5292D4E980500FC2E8C /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				5ACFF5312D4E9A8A00FC2E8C /* GetTicketDetailUseCase.swift */,
+				5ACFF52F2D4E996300FC2E8C /* GetExpiredTicketsUseCase.swift */,
+				5ACFF52D2D4E990E00FC2E8C /* GetNewestTicketsUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		5ACFF52A2D4E980D00FC2E8C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5ACFF5272D4E955A00FC2E8C /* TicketEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5ACFF5352D4E9BD000FC2E8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ACFF5332D4E9B8A00FC2E8C /* RemoteTicketModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AD87BD32D3E350100676B0E /* Navigation Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5AB509612D45554C003B8DE6 /* RouteExt.swift */,
+				5AD87BD12D3E34B500676B0E /* RouteEnum.swift */,
+				5AAA1F812D37D31300D4A3EE /* NavigationManager.swift */,
+			);
+			path = "Navigation Manager";
+			sourceTree = "<group>";
+		};
+		5ADBF5702AB039F900F0E089 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF5812AB06BF400F0E089 /* Firebase */,
+				5ADBF5902AB0DCB500F0E089 /* AuthenticationDataSource.swift */,
+				5ADBF5922AB0DCE900F0E089 /* AuthenticationRepositoryImpl.swift */,
+				5A45488E2C1AC21C0060C5F8 /* AuthenticationUtils.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5ADBF5712AB03A1500F0E089 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				5A59BF5C2C21898500A0ECF2 /* Widget */,
+				5A59BF5B2C21896200A0ECF2 /* Screen */,
+				5A59BF592C2188E500A0ECF2 /* View Model */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5ADBF5742AB03FAB00F0E089 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF5792AB0427A00F0E089 /* Use Case */,
+				5ADBF5752AB03FC400F0E089 /* AuthenticationRepository.swift */,
+				5AB667AB2ADBA30D0079EB54 /* AuthenticationComponent.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5ADBF5792AB0427A00F0E089 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF57B2AB042A900F0E089 /* SignUpUseCase.swift */,
+				5ADBF57D2AB06AD100F0E089 /* SignInUseCase.swift */,
+				5ADBF57F2AB06B0A00F0E089 /* ForgotPasswordUseCase.swift */,
+				5ACBD1842B00E31C0036DC53 /* UploadImageUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		5ADBF5812AB06BF400F0E089 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF5942AB0DDA800F0E089 /* FirebaseAuthenticationDataSourceImpl.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		5ADBF5832AB0DA1E00F0E089 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF5892AB0DB3400F0E089 /* Use Case */,
+				5ADBF5852AB0DA5F00F0E089 /* SessionRepository.swift */,
+				5ADBF5872AB0DADE00F0E089 /* SessionEntity.swift */,
+				5A33F7CE2B1CB6CE00C2D85A /* SessionComponent.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		5ADBF5842AB0DA2800F0E089 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF5962AB0DF0000F0E089 /* Local */,
+				5ADBF5972AB0DF3D00F0E089 /* SessionRepositoryImpl.swift */,
+				5ADBF5992AB0DF5700F0E089 /* SessionDataSource.swift */,
+				5A221BF12B1CAAA3004C2F6B /* SessionKey.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		5ADBF5892AB0DB3400F0E089 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF58A2AB0DBC600F0E089 /* SaveSessionUseCase.swift */,
+				5ADBF58C2AB0DC1600F0E089 /* RemoveSessionUseCase.swift */,
+				5ADBF58E2AB0DC3A00F0E089 /* CheckSessionUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		5ADBF5962AB0DF0000F0E089 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				5ADBF59B2AB0DF6800F0E089 /* LocalSessionDataSource.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		5AF1E9092B20A9B900C8930B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5AF1E9122B20ABFC00C8930B /* Remote */,
+				5AF1E9162B20AE5E00C8930B /* ProfileRepositoryImpl.swift */,
+				5AF1E9182B20AE8000C8930B /* ProfileDataSource.swift */,
+				5A86A7B22C1A027700AC17BC /* ProfileUtils.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5AF1E90A2B20A9DE00C8930B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5AF1E9142B20AD8800C8930B /* ProfileComponent.swift */,
+				5AF1E90B2B20A9ED00C8930B /* Use Case */,
+				5ADBF5772AB0403100F0E089 /* UserEntity.swift */,
+				5AF1E90C2B20AA6F00C8930B /* ProfileRepository.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5AF1E90B2B20A9ED00C8930B /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				5AF1E90E2B20AB1F00C8930B /* GetProfileUseCase.swift */,
+				5AF1E9102B20ABAB00C8930B /* EditProfileUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		5AF1E9122B20ABFC00C8930B /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				5AF1E91B2B20AEC300C8930B /* RemoteProfileDataSource.swift */,
+				5AF1E91D2B20B06D00C8930B /* RemoteProfileModel.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		5AFCCDE12D39440B00ABDBA7 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5AFCCDE42D39443700ABDBA7 /* DateItemView.swift */,
+				5AAE2A3C2D3CE24C009B6B54 /* TimeItemView.swift */,
+				5AD87BCB2D3E088200676B0E /* SeatItemView.swift */,
+				5AD87BCD2D3E098000676B0E /* SeatView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		5AFCCDE62D3945E200ABDBA7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5AFCCDE72D3945EA00ABDBA7 /* Entity */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5AFCCDE72D3945EA00ABDBA7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5AFCCDE82D39461300ABDBA7 /* TimeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A03B1A32A59D1F600E51F03 /* swiflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A03B1B22A59D1F800E51F03 /* Build configuration list for PBXNativeTarget "swiflix" */;
+			buildPhases = (
+				5A03B1A02A59D1F600E51F03 /* Sources */,
+				5A03B1A12A59D1F600E51F03 /* Frameworks */,
+				5A03B1A22A59D1F600E51F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiflix;
+			packageProductDependencies = (
+				5AC4DE762A62EB8C00FE5D2A /* FirebaseAuth */,
+				5AC4DE782A62EB8C00FE5D2A /* FirebaseFirestore */,
+				5AC4DE7A2A62EB8C00FE5D2A /* FirebaseStorage */,
+				5A462BFF2C6CD9BB00F7A456 /* Shimmer */,
+			);
+			productName = swiflix;
+			productReference = 5A03B1A42A59D1F600E51F03 /* swiflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A03B19C2A59D1F600E51F03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A03B1A32A59D1F600E51F03 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5A03B19F2A59D1F600E51F03 /* Build configuration list for PBXProject "swiflix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				id,
+			);
+			mainGroup = 5A03B19B2A59D1F600E51F03;
+			packageReferences = (
+				5AC4DE752A62EB8C00FE5D2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5A462BFE2C6CD9BB00F7A456 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
+			);
+			productRefGroup = 5A03B1A52A59D1F600E51F03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A03B1A32A59D1F600E51F03 /* swiflix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A03B1A22A59D1F600E51F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A03B1AF2A59D1F800E51F03 /* Preview Assets.xcassets in Resources */,
+				5A993EA22A5C28CA0039CB6C /* Localizable.strings in Resources */,
+				5A03B1AC2A59D1F800E51F03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A03B1A02A59D1F600E51F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6E68602A6300ED001058AB /* Constants.swift in Sources */,
+				5A86A7B32C1A027700AC17BC /* ProfileUtils.swift in Sources */,
+				5AD15CE12CC6ABB000505276 /* NowInCinemasCard.swift in Sources */,
+				5AB1EB462A64345B006881CC /* EmailTextFieldView.swift in Sources */,
+				5ACFF5282D4E956100FC2E8C /* TicketEntity.swift in Sources */,
+				5AAE11952D40DF9400AA5A16 /* ReservationUseCase.swift in Sources */,
+				5AB54CB82C91FF8200F5EED9 /* MovieDetailScreen.swift in Sources */,
+				5A1D87BA2B52C650007F36E7 /* RemoteImage.swift in Sources */,
+				5AA130112C9333E80096B7A4 /* MovieRepositoryImpl.swift in Sources */,
+				5A3D4C5F2D1DB3F9002CCA3A /* RemoteCastModel.swift in Sources */,
+				5A59BF5F2C21C43300A0ECF2 /* EditProfileScreen.swift in Sources */,
+				5A45488F2C1AC21C0060C5F8 /* AuthenticationUtils.swift in Sources */,
+				5ACEF6792D6761460010FFED /* MyWalletViewModel.swift in Sources */,
+				5AA130062C9330B00096B7A4 /* MovieRepository.swift in Sources */,
+				5AAE11AE2D40F3A400AA5A16 /* TransactionDataSource.swift in Sources */,
+				5AAE11AF2D40F3A400AA5A16 /* RemoteTransactionDataSource.swift in Sources */,
+				5A5556602D4E1BA4006C19AA /* TopUpWalletUseCase.swift in Sources */,
+				5A3D4C5C2D1DB0EF002CCA3A /* GetCreditsUseCase.swift in Sources */,
+				5AD87BD02D3E214100676B0E /* CheckoutScreen.swift in Sources */,
+				5AA3816A2C8F577A000D7C1D /* ComingSoonShimmerLoadingView.swift in Sources */,
+				5ACC7C062C1F3B86009C5C20 /* ShimmerEffectModifier.swift in Sources */,
+				5ACFF5342D4E9B9200FC2E8C /* RemoteTicketModel.swift in Sources */,
+				5AB667AC2ADBA30D0079EB54 /* AuthenticationComponent.swift in Sources */,
+				5ADBF59C2AB0DF6800F0E089 /* LocalSessionDataSource.swift in Sources */,
+				5ADBF59A2AB0DF5700F0E089 /* SessionDataSource.swift in Sources */,
+				5A422D522D8F179100A9A3DF /* DataUtils.swift in Sources */,
+				5A0141AD2D32AB4C00379465 /* RemoteGenreModel.swift in Sources */,
+				5ADBF5782AB0403100F0E089 /* UserEntity.swift in Sources */,
+				5AAE11992D40EA6E00AA5A16 /* ReservationRepositoryImpl.swift in Sources */,
+				5AA1300A2C9332EC0096B7A4 /* GetNowPlayingUseCase.swift in Sources */,
+				5AF1E91C2B20AEC300C8930B /* RemoteProfileDataSource.swift in Sources */,
+				5ADBF56C2AB037B400F0E089 /* AuthenticationViewModel.swift in Sources */,
+				5A76121D2D3CEC3000C747C6 /* ChooseSeatScreen.swift in Sources */,
+				5A3D4C5A2D1DAF80002CCA3A /* CastEntity.swift in Sources */,
+				5A3D4C582D1D9A3F002CCA3A /* RatingStarWidget.swift in Sources */,
+				5AB509622D455557003B8DE6 /* RouteExt.swift in Sources */,
+				5A7BC0A92C3D6A0100EB2FCC /* TextFieldView.swift in Sources */,
+				5AA381662C8F5741000D7C1D /* FavoriteCategoryShimmerLoadingView.swift in Sources */,
+				5AD106992D38ED2C00F6F649 /* ReservationViewModel.swift in Sources */,
+				5AAE118F2D40C51B00AA5A16 /* SuccessReservationScreen.swift in Sources */,
+				5AF1E90F2B20AB1F00C8930B /* GetProfileUseCase.swift in Sources */,
+				5ADBF57E2AB06AD100F0E089 /* SignInUseCase.swift in Sources */,
+				5AA130022C932CE70096B7A4 /* GenreEntity.swift in Sources */,
+				5ACEF67D2D6763860010FFED /* TransactionView.swift in Sources */,
+				5ACEF6722D6756970010FFED /* TransactionRepositoryImpl.swift in Sources */,
+				5AF1E91E2B20B06D00C8930B /* RemoteProfileModel.swift in Sources */,
+				5AA1300C2C93331E0096B7A4 /* GetUpcomingListUseCase.swift in Sources */,
+				5ADB78292ADAEA0800BB48C1 /* FullNameTextFieldView.swift in Sources */,
+				5A1D87AE2B52A5B0007F36E7 /* MovieScreen.swift in Sources */,
+				5ADBF5762AB03FC400F0E089 /* AuthenticationRepository.swift in Sources */,
+				5AD15CDD2CC697EE00505276 /* RemoteMovieListResultModel.swift in Sources */,
+				5AD460352C271E46007E6EE5 /* DataConstants.swift in Sources */,
+				5A0759F12D68A9D400107F95 /* TransactionShimmerLoadingView.swift in Sources */,
+				5AA1300E2C9333370096B7A4 /* MovieComponent.swift in Sources */,
+				5ACFF5322D4E9A9400FC2E8C /* GetTicketDetailUseCase.swift in Sources */,
+				5ADBF5952AB0DDA800F0E089 /* FirebaseAuthenticationDataSourceImpl.swift in Sources */,
+				5ADBF58B2AB0DBC600F0E089 /* SaveSessionUseCase.swift in Sources */,
+				5A60FA3C2B8B381C000506DF /* GenreEnum.swift in Sources */,
+				5A2797312D4FBB7D00B0FD5B /* NewestListView.swift in Sources */,
+				5AB1EB482A643FB4006881CC /* ButtonView.swift in Sources */,
+				5ABE44A72A9255A300A6D532 /* SignInScreen.swift in Sources */,
+				5AC4DE802A62F13200FE5D2A /* RegisterScreen.swift in Sources */,
+				5A1D87B22B52A5EE007F36E7 /* ProfileScreen.swift in Sources */,
+				5AFA223C2D550A4E00170845 /* TicketListShimmerLoadingView.swift in Sources */,
+				5ACBD1852B00E31C0036DC53 /* UploadImageUseCase.swift in Sources */,
+				5ADBF5982AB0DF3D00F0E089 /* SessionRepositoryImpl.swift in Sources */,
+				5ACEF66B2D67554B0010FFED /* TransactionEntity.swift in Sources */,
+				5A13203C2D57490400586F52 /* TicketDetailScreen.swift in Sources */,
+				5AF1E90D2B20AA6F00C8930B /* ProfileRepository.swift in Sources */,
+				5A60FA462B8C3911000506DF /* UploadImageViewModel.swift in Sources */,
+				5AD15CDF2CC69A2D00505276 /* MovieConstants.swift in Sources */,
+				5A2797332D4FBB8900B0FD5B /* ExpiredListView.swift in Sources */,
+				5A2264162D7D85620045C505 /* SplashScreen.swift in Sources */,
+				5AB1EB422A642039006881CC /* PasswordTextFieldView.swift in Sources */,
+				5A7612212D3D3FD500C747C6 /* SeatStatusEnum.swift in Sources */,
+				5AA130162C9334BF0096B7A4 /* RemoteMovieDataSource.swift in Sources */,
+				5A221BF22B1CAAA3004C2F6B /* SessionKey.swift in Sources */,
+				5A33F7CF2B1CB6CE00C2D85A /* SessionComponent.swift in Sources */,
+				5A76121F2D3CF3A200C747C6 /* ReservationEntity.swift in Sources */,
+				5AC2B38A2D42AAB400EBD8A4 /* TopUpWalletScreen.swift in Sources */,
+				5AAE2A3D2D3CE24C009B6B54 /* TimeItemView.swift in Sources */,
+				5A5556622D4E1BBC006C19AA /* WalletRepository.swift in Sources */,
+				5AD586A62CFB725D00560658 /* ForYouCard.swift in Sources */,
+				5AB1EB4A2A6442C7006881CC /* ChooseFavoriteScreen.swift in Sources */,
+				5ADBF5882AB0DADE00F0E089 /* SessionEntity.swift in Sources */,
+				5AA381642C8F5719000D7C1D /* ForYouShimmerLoadingView.swift in Sources */,
+				5A1D87B72B52B97A007F36E7 /* MovieViewModel.swift in Sources */,
+				5AA130142C9334990096B7A4 /* MovieDataSource.swift in Sources */,
+				5A5556592D4E1363006C19AA /* TopUpTemplateView.swift in Sources */,
+				5ABE44A52A9247DA00A6D532 /* HomeScreen.swift in Sources */,
+				5AB54CBB2C91FFFA00F5EED9 /* MovieDetailViewModel.swift in Sources */,
+				5AA381682C8F575C000D7C1D /* NowInCinemasShimmerLoadingView.swift in Sources */,
+				5AC2B3872D42A8D300EBD8A4 /* FullScreenLoadingView.swift in Sources */,
+				5AF1E9152B20AD8800C8930B /* ProfileComponent.swift in Sources */,
+				5AD87BCC2D3E088200676B0E /* SeatItemView.swift in Sources */,
+				5AAE11932D40DF3500AA5A16 /* ReservationRepository.swift in Sources */,
+				5A5556692D4E36FE006C19AA /* SuccessTopUpScreen.swift in Sources */,
+				5A2881FB2A5C12A000001FC6 /* Extension.swift in Sources */,
+				5AAA1F822D37D31300D4A3EE /* NavigationManager.swift in Sources */,
+				5ABE44A92A925E8D00A6D532 /* ResetPasswordScreen.swift in Sources */,
+				5ACEF09E2D3A5C2C0081BC38 /* TheaterEntity.swift in Sources */,
+				5ABE44A32A9200E100A6D532 /* ContainerChooseView.swift in Sources */,
+				5ACEF6772D675CD10010FFED /* RemoteTransactionModel.swift in Sources */,
+				5ACFF5302D4E996E00FC2E8C /* GetExpiredTicketsUseCase.swift in Sources */,
+				5ACEF6702D6756330010FFED /* GetTransactionsUseCase.swift in Sources */,
+				5A55565B2D4E1B28006C19AA /* TopUpWalletViewModel.swift in Sources */,
+				5A2797352D4FBE0200B0FD5B /* TicketListViewModel.swift in Sources */,
+				5A5FE2972AB8B459009D0053 /* RegisterViewModel.swift in Sources */,
+				5ADBF5802AB06B0A00F0E089 /* ForgotPasswordUseCase.swift in Sources */,
+				5ABD31832CC55BB200E81E93 /* RemoteMovieModel.swift in Sources */,
+				5AA130042C9330920096B7A4 /* GetForYouListUseCase.swift in Sources */,
+				5A6497492D676D3100377F07 /* IncomePlaceholderView.swift in Sources */,
+				5A2881F32A5BDD9400001FC6 /* OnBoardingScreen.swift in Sources */,
+				5AB1EB402A641BC7006881CC /* CommonFunction.swift in Sources */,
+				5AF1E9112B20ABAB00C8930B /* EditProfileUseCase.swift in Sources */,
+				5ADBF58D2AB0DC1600F0E089 /* RemoveSessionUseCase.swift in Sources */,
+				5A90F8092AB70AEA00590400 /* DependencyInjection.swift in Sources */,
+				5AB54CBD2C92005300F5EED9 /* MovieDetailEntity.swift in Sources */,
+				5AF2D8EB2B8762A300B10BBA /* CategoryView.swift in Sources */,
+				5ADBF57C2AB042A900F0E089 /* SignUpUseCase.swift in Sources */,
+				5ADBF58F2AB0DC3A00F0E089 /* CheckSessionUseCase.swift in Sources */,
+				5A3D4C612D1DB6EE002CCA3A /* RemoteCastResult.swift in Sources */,
+				5AD87BD22D3E34C200676B0E /* RouteEnum.swift in Sources */,
+				5A0141A92D32A16000379465 /* GetMovieDetailUseCase.swift in Sources */,
+				5AFCCDE92D39461300ABDBA7 /* TimeEntity.swift in Sources */,
+				5AF1E9082B20A77600C8930B /* ProfileViewModel.swift in Sources */,
+				5AFCCDE52D39443700ABDBA7 /* DateItemView.swift in Sources */,
+				5AAE11A52D40F12100AA5A16 /* TicketDataSource.swift in Sources */,
+				5A27972F2D4FAF3C00B0FD5B /* TicketView.swift in Sources */,
+				5AD87BCE2D3E098000676B0E /* SeatView.swift in Sources */,
+				5A03B1A82A59D1F600E51F03 /* swiflixApp.swift in Sources */,
+				5AF1E9172B20AE5E00C8930B /* ProfileRepositoryImpl.swift in Sources */,
+				5AAA1F5E2D378CDA00D4A3EE /* ReservationScreen.swift in Sources */,
+				5AAE11B32D411B6000AA5A16 /* TransactionType.swift in Sources */,
+				5AB667AA2ADB97CB0079EB54 /* SessionViewModel.swift in Sources */,
+				5A1D87B02B52A5DA007F36E7 /* TicketScreen.swift in Sources */,
+				5ACFF52E2D4E992000FC2E8C /* GetNewestTicketsUseCase.swift in Sources */,
+				5AAE11A72D40F34300AA5A16 /* RemoteTicketDataSource.swift in Sources */,
+				5A0141AF2D32E76900379465 /* MovieDetailShimmerLoadingView.swift in Sources */,
+				5ADBF5932AB0DCE900F0E089 /* AuthenticationRepositoryImpl.swift in Sources */,
+				5A0141AB2D32A30200379465 /* RemoteMovieDetailModel.swift in Sources */,
+				5A5556652D4E1F37006C19AA /* WalletRepositoryImpl.swift in Sources */,
+				5ADB22CF2D8C60D8000374B8 /* RootScreen.swift in Sources */,
+				5AF1E9192B20AE8000C8930B /* ProfileDataSource.swift in Sources */,
+				5ADBF5862AB0DA5F00F0E089 /* SessionRepository.swift in Sources */,
+				5ADBF5912AB0DCB500F0E089 /* AuthenticationDataSource.swift in Sources */,
+				5ACFF52C2D4E982700FC2E8C /* TicketRepository.swift in Sources */,
+				5ADE38FC2AEFDFC100B9D3CE /* AccountConfirmationScreen.swift in Sources */,
+				5AB1EB442A642551006881CC /* ProfilePicView.swift in Sources */,
+				5ACEF66D2D6755E00010FFED /* TransactionRepository.swift in Sources */,
+				5A5556672D4E36DE006C19AA /* MyWalletScreen.swift in Sources */,
+				5A1D87B52B52B69B007F36E7 /* MovieEntity.swift in Sources */,
+				5A2797372D4FBFD000B0FD5B /* TicketRepositoryImpl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A993EA42A5C28CA0039CB6C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A993EA32A5C28CA0039CB6C /* id */,
+				5A993EA52A5C28CF0039CB6C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A03B1B02A59D1F800E51F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A03B1B12A59D1F800E51F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A03B1B32A59D1F800E51F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiflix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiflix/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Swiflix;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hz.swiflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A03B1B42A59D1F800E51F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiflix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiflix/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Swiflix;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hz.swiflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A03B19F2A59D1F600E51F03 /* Build configuration list for PBXProject "swiflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A03B1B02A59D1F800E51F03 /* Debug */,
+				5A03B1B12A59D1F800E51F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A03B1B22A59D1F800E51F03 /* Build configuration list for PBXNativeTarget "swiflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A03B1B32A59D1F800E51F03 /* Debug */,
+				5A03B1B42A59D1F800E51F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A462BFE2C6CD9BB00F7A456 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		5AC4DE752A62EB8C00FE5D2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 11.0.0;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A462BFF2C6CD9BB00F7A456 /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A462BFE2C6CD9BB00F7A456 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
+		};
+		5AC4DE762A62EB8C00FE5D2A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AC4DE752A62EB8C00FE5D2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5AC4DE782A62EB8C00FE5D2A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AC4DE752A62EB8C00FE5D2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5AC4DE7A2A62EB8C00FE5D2A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AC4DE752A62EB8C00FE5D2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5A03B19C2A59D1F600E51F03 /* Project object */;
+}

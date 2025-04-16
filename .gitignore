@@ -1,0 +1,83 @@
+# macOS
+.DS_Store
+*.swp
+*.lock
+*.tmp
+*.log
+
+# Xcode
+DerivedData/
+build/
+*.moved-aside
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcodeproj/xcuserdata/
+*.xcuserdatad
+*.xccheckout
+*.xcuserstate
+*.xcscmblueprint
+*.xcsettings
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+fastlane/*.env
+
+# Firebase / GoogleService (Sensitive key file)
+GoogleService-Info.plist
+
+# Environment & Secrets
+*.env
+*.key
+*.pem
+*.p8
+*.cer
+*.crt
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.token
+*.secret
+.secret
+secrets/
+
+# Xcode Previews & Simulator
+*.preview-thumbnails
+*.preview-device-state
+coreSimulatorDevices/
+
+# Preview content (temporary)
+**/Preview\ Content/
+
+# User-specific local config
+*.local.*
+
+# Editor & IDE
+.vscode/
+.idea/
+*.iml
+
+# Vim swap
+*.swo
+*.swp

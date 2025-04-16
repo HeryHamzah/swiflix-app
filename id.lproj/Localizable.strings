@@ -1,0 +1,104 @@
+/*
+  Localizable.strings
+  swiflix
+
+  Created by MD-HeryHamzah on 10/07/23.
+  
+*/
+
+"get_started" = "Mulai";
+"on_boarding_desc" = "Beli Tiket dari bioskop film favorit Kamu, di mana saja kapan saja";
+"question_have_account" = "Sudah punya akun?";
+"sign_in" = "Masuk";
+"register" = "Daftar";
+"full_name" = "Nama Lengkap";
+"email" = "Email";
+"password" = "Kata Sandi";
+"confirm_password" = "Konfirmasi Kata Sandi";
+"empty_email" = "Email kosong";
+"wrong_format_email" = "Format email salah";
+"choose_your_favorite_genre" = "Pilih genre kesukaanmu!";
+"year_your_favorite_movie_release" = "Tahun rilis kesukaanmu?";
+"welcome_back" = "Selamat datang kembali.";
+"the_cinema_is_waiting_for_you" = "Bioskop menunggumu!";
+"forgot_password" = "Lupa sandi?";
+"reset_password" = "Atur ulang sandi";
+"start_fresh_now" = "Belum punya akun?";
+"register" = "Daftar";
+"sign_in" = "Masuk";
+"reset_password_desc" = "Masukkan email yang didaftarkan. Tautan atur ulang kata sandi akan dikirim ke email tersebut.";
+"sent" = "Kirim";
+"empty_password" = "Kata Sandi kosong";
+"failed" = "Gagal";
+"empty_full_name" = "Nama Lengkap kosong";
+"password_confirmation_does_not_match" = "konfirmasi kata sandi tidak sesuai";
+"empty_confirm_password" = "Konfirmasi Kata Sandi kosong";
+"password_must_be_at_least_6_characters" = "Kata sandi minimal harus 6 karakter";
+"choose_maximum_4" = "*Pilih maksimal 4";
+"confirmation" = "Konfirmasi";
+"welcome" = "Selamat datang";
+"register" = "Register";
+"for_you" = "Untukmu";
+"favorite_category" = "Kategori Favorit";
+"coming_soon" = "Segera Hadir";
+"my_ticket" = "Tiketku";
+"movie" = "Film";
+"profile" = "Profil";
+"action" = "Aksi";
+"animation" = "Animasi";
+"crime" = "Kejahatan";
+"horror" = "Horor";
+"romance" = "Romantis";
+"western" = "Barat";
+"general_error_message" = "Terjadi kesalahan. Silahkan coba lagi";
+"now_in_cinemas" = "Sekarang di Bioskop";
+"edit_profile" = "Edit profil";
+"my_wallet" = "Dompetku";
+"my_favorite_movies" = "Movie favorit";
+"rate_app" = "Rating aplikasi";
+"about_us" = "Tentang kami";
+"logout" = "Keluar";
+"plot_summary" = "Plot Summary";
+"cast" = "Cast";
+"reservation" = "Reservation";
+"detail" = "Detail";
+"no_data" = "Tidak ada data";
+"refresh" = "Muat ulang";
+"available" = "Available";
+"booked" = "Booked";
+"selected" = "Selected";
+"checkout_movie" = "Checkout Movie";
+"cinema" = "Cinema";
+"date_and_time" = "Date & Time";
+"seat_number" = "Seat Number";
+"price" = "Price";
+"fee" = "Fee";
+"total" = "Total";
+"your_wallet" = "Your Wallet";
+"checkout_now" = "Checkout Now";
+"top_up_my_wallet" = "Top Up My Wallet";
+"happy_watching" = "Happy Watching!";
+"booking_success_desc" = "You have successfully bought the ticket";
+"discover_new_movie" = "Discover new movie?";
+"back_to_home" = "Back to home";
+"order_id" = "Order ID";
+"choose_by_template" = "Choose by Template";
+"amount" = "Amount";
+"top_up" = "Top Up";
+"top_up_now" = "Top Up Now";
+"top_up_success_desc" = "You have successfully top up the wallet";
+"top_up_failed" = "Top Up Gagal";
+"top_up_failed_desc" = "Terjadi kesalahan saat melakukan top-up. Silakan coba lagi.";
+"ok" = "OK";
+"my_tickets" = "Tiket Saya";
+"newest" = "Terbaru";
+"expired" = "Kadaluarsa";
+"name" = "Name";
+"paid" = "Paid";
+"your_balance" = "Your Balance";
+"card_holder" = "Card Holder";
+"card_id" = "Card ID";
+"recent_transactions" = "Recent Transactions";
+"there_is_an_error" = "There is an error";
+"try_again" = "Coba Lagi";
+
